@@ -29,7 +29,3 @@ NeuroDetect is built using Python and the following key libraries and frameworks
 ## Ethical Considerations
 
 As mental health data is highly sensitive, NeuroDetect places great importance on **data privacy** and **user consent**. All data collected is anonymized, and users can opt in to provide their information for analysis. Our goal is to offer early detection of mental health issues without compromising trust, ensuring that the platform remains ethical and responsible in its use of AI.
-
-## Open Source
-
-NeuroDetect is **open-source** and we encourage contributions from developers, researchers, and mental health professionals. Whether you’re interested in improving the platform, adding new features, or providing feedback, feel free to fork the repository and submit pull requests.
