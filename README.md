@@ -1,1 +1,1 @@
-# AIMD_NeuroDetect
+# neurodetect
