@@ -20,7 +20,7 @@ async def root():
 
 @app.post("/items/", response_model=dict)
 async def create_item(item: Item):
-    item_dict = item.dict()
+    item_dict = item.model_dump()
     result = await db.my_collection.insert_one(item_dict)
     if result.inserted_id:
         return {"id": str(result.inserted_id), **item_dict}
