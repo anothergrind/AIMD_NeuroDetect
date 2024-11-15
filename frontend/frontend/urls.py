@@ -18,8 +18,4 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('dashboard/', include("dashboard.urls")),
-    path('login/', include("login.urls")),
-    path('signup/', include("signup.urls")),
-    path('chat',include("chat.urls"))
 ]
